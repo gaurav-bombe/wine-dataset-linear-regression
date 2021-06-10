@@ -4,7 +4,7 @@ import sklearn
 from sklearn import linear_model
 from sklearn.utils import shuffle
 
-data = pd.read_csv("...\winequality\winequality-white.csv", sep=";")
+data = pd.read_csv("winequality-white.csv", sep=";")
 data = data[["fixed acidity", "volatile acidity", "citric acid", "residual sugar", "chlorides", "free sulfur dioxide", "total sulfur dioxide", "density", "pH", "sulphates", "alcohol", "quality"]]
 
 predict = "quality"
